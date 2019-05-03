@@ -6,7 +6,7 @@ import '../styles/index.scss'
 const IndexPage = () => {
     return(
         <Layout>
-            <p>hello</p>
+            <p>hello homepage</p>
         </Layout>
     )
 }
