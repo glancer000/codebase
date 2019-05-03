@@ -13,9 +13,9 @@ const Footer = () => {
     }`)
 
     return(
-        <header>
+        <footer>
             <h1>{data.site.siteMetadata.author}</h1>
-        </header>
+        </footer>
     )
 }
 
