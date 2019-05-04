@@ -1,10 +1,10 @@
 .container {
-    max-width: 1200px;
+    max-width: 80%;
     padding: 1rem;
     list-style: none;
     display: flex;
     align-items: center;
-    height: 80px;
+    height: 100px;
     width: 100%;
     position: absolute;
     top: 0;
@@ -17,10 +17,16 @@
 
 .logo{
     display: flex;
+    align-items: center;
+    margin: 0;
     justify-content: flex-start;
 }
 
-.menu{
+.spacer{
+    flex: 1;
+}
+
+.nav{
         display: flex;
   justify-content: flex-end;
 }
@@ -30,12 +36,15 @@
     font-size: 3rem;
     text-decoration: none;
     margin: 0;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .nav-list{
     display: flex;
     list-style-type: none;
     margin: 0;
+    justify-content: flex-end;
     
 }
 
