@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Header from './header'
+import Nav from './nav'
 import Footer from './footer'
 import '../styles/index.scss'
 import layoutStyles from './layout.module.scss'
@@ -9,7 +9,7 @@ import layoutStyles from './layout.module.scss'
 const Layout = (props) => {
     return(
         <div>
-            <Header/>
+            <Nav/>
             <div className={layoutStyles.container}>
                 {props.children}
             </div>

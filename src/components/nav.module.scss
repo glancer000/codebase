@@ -1,10 +1,28 @@
 .container {
-    padding: 0;
+    max-width: 1200px;
+    padding: 1rem;
     list-style: none;
     display: flex;
     align-items: center;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.logo{
     display: flex;
-    background: #0766e2;
+    justify-content: flex-start;
+}
+
+.menu{
+        display: flex;
+  justify-content: flex-end;
 }
 
 .title{
@@ -23,7 +41,7 @@
 
 .nav-item{
     color: #f7f7f7;
-    font-size: .9rem;
+    font-size: 1rem;
     margin-right: 1.3rem;
     margin-bottom: 0;
     text-decoration: none;
