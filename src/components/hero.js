@@ -1,20 +1,22 @@
 import React from 'react'
 
-import Nav from './nav'
-import headerStyles from './header.module.scss'
+import headerStyles from './hero.module.scss'
+import phone from '../images/front.png';
 
 
 const Hero = () => {
 
 
     return(
-        <header className={headerStyles.content}>
-            <div className={headerStyles.container}>
+        <header className={headerStyles.container}>
+            <div className={headerStyles.content}>
                 <div className={headerStyles.title}>
-                    <h1 >We've created over250 digital productsthat users love</h1>
+                    <h1>We develop once, you deploy everywhere</h1>
+                    <h5>Build beautiful native mobile and web apps from one single codebase</h5>
                 </div>
-                
-            </div>    
+                <div className={headerStyles.image}><img src={phone} alt="phone" /></div>   
+            </div> 
+             
         </header>
     )
 }

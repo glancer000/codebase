@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Link} from 'gatsby'
 import navStyles from './nav.module.scss'
-import logo from '../images/codebase.png';
+import logo from '../images/baselogo.png';
 
 
 const Nav = () => {
