@@ -24,7 +24,7 @@ const IndexPage = () => {
                                 <p>Flutter allows you to build beautiful native apps on iOS and Android from a single codebase.</p>
                             </div>
                             <div className={InfoStyles.image}>
-                                <h1>Why Use Flutter</h1>
+                                <h1>Picture goes here</h1>
                             </div>
                 </InfoSection>
             </Layout>
