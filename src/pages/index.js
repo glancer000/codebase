@@ -8,8 +8,7 @@ import ContentSection from '../components/content'
 import contentStyles from '../components/content.module.scss'
 import LeftInfoSection from "../components/leftInfoSection";
 import LeftInfoStyles from '../components/leftInfoSection.module.scss'
-import RightInfoSection from "../components/rightInfoSection";
-import RightInfoStyles from '../components/rightInfoSection.module.scss'
+import iphone from '../images/iphone.png';
 
 
 const IndexPage = () => {
@@ -27,19 +26,19 @@ const IndexPage = () => {
                                 <p>Flutter allows you to build beautiful native apps on iOS and Android from a single codebase.</p>
                             </div>
                             <div className={LeftInfoStyles.image}>
-                                <h1>Picture goes here</h1>
+                                <img src={iphone} alt="phone" className={LeftInfoStyles.image}/>
                             </div>
                 </LeftInfoSection>
-                <RightInfoSection className={RightInfoStyles.container}>
-                <div className={RightInfoStyles.image}>
-                                <h1>Picture goes here</h1>
-                            </div>
-                <div className={RightInfoStyles.content}>
-                                <h1>Why Use Flutter</h1>
-                                <p>Flutter allows you to build beautiful native apps on iOS and Android from a single codebase.</p>
-                            </div>
+                <LeftInfoSection className={LeftInfoStyles.container}>
+                    <div className={LeftInfoStyles.image}>
+                        <img src={iphone} alt="phone" className={LeftInfoStyles.image}/>
+                    </div>
+                    <div className={LeftInfoStyles.content}>
+                        <h1>Why Use Flutter</h1>
+                        <p>Flutter allows you to build beautiful native apps on iOS and Android from a single codebase.</p>
+                    </div>
 
-                </RightInfoSection>
+                </LeftInfoSection>
             </Layout>
         </div>
 
