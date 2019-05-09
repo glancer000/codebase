@@ -6,8 +6,11 @@ import '../styles/index.scss'
 
 import ContentSection from '../components/content'
 import contentStyles from '../components/content.module.scss'
-import InfoSection from "../components/info";
-import InfoStyles from '../components/info.module.scss'
+import LeftInfoSection from "../components/leftInfoSection";
+import LeftInfoStyles from '../components/leftInfoSection.module.scss'
+import RightInfoSection from "../components/rightInfoSection";
+import RightInfoStyles from '../components/rightInfoSection.module.scss'
+
 
 const IndexPage = () => {
     return(
@@ -18,15 +21,25 @@ const IndexPage = () => {
                     <h1 className={contentStyles.title}>One Codebase to Rule Them All.</h1>
                     <p className={contentStyles.text}>We develop exclusively with Flutter, a crossplatfrom SDK from Google.</p>
                 </ContentSection>
-                <InfoSection className={InfoStyles.container}>
-                            <div className={InfoStyles.content}>
+                <LeftInfoSection className={LeftInfoStyles.container}>
+                            <div className={LeftInfoStyles.content}>
                                 <h1>Why Use Flutter</h1>
                                 <p>Flutter allows you to build beautiful native apps on iOS and Android from a single codebase.</p>
                             </div>
-                            <div className={InfoStyles.image}>
+                            <div className={LeftInfoStyles.image}>
                                 <h1>Picture goes here</h1>
                             </div>
-                </InfoSection>
+                </LeftInfoSection>
+                <RightInfoSection className={RightInfoStyles.container}>
+                <div className={RightInfoStyles.image}>
+                                <h1>Picture goes here</h1>
+                            </div>
+                <div className={RightInfoStyles.content}>
+                                <h1>Why Use Flutter</h1>
+                                <p>Flutter allows you to build beautiful native apps on iOS and Android from a single codebase.</p>
+                            </div>
+
+                </RightInfoSection>
             </Layout>
         </div>
 
