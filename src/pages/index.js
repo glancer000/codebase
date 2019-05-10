@@ -30,8 +30,8 @@ const IndexPage = () => {
                             </div>
                 </LeftInfoSection>
                 <LeftInfoSection className={LeftInfoStyles.container}>
-                    <div className={LeftInfoStyles.image}>
-                        <img src={iphone} alt="phone" className={LeftInfoStyles.image}/>
+                    <div>
+                        <img src={iphone} alt="phone"/>
                     </div>
                     <div className={LeftInfoStyles.content}>
                         <h1>Why Use Flutter</h1>
