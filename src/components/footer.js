@@ -1,7 +1,7 @@
 import React from 'react'
 
 import footerStyles from '../components/footer.module.scss'
-import logo from '../images/codebase_logo.png';
+import logo from '../images/Group 3.1.png';
 
 import { graphql, useStaticQuery } from 'gatsby'
 
