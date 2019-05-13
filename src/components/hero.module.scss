@@ -5,9 +5,11 @@
 
 .content {
     margin: 0 auto;
-    max-width: 80%;
+    width: 80%;
+    max-width: 1200px;
     padding: 1rem;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     min-height: 90vh;
 }
@@ -16,11 +18,10 @@
     color: rgb(255, 255, 255);
 
     margin:auto 0;
-    width: 50%;
 }
 
 .header{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 }
 
 .subheader{
