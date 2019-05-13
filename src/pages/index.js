@@ -23,7 +23,7 @@ const IndexPage = () => {
                 <LeftInfoSection className={LeftInfoStyles.container}>
                             <div className={LeftInfoStyles.content}>
                                 <h1>Why Use Flutter</h1>
-                                <p>Flutter allows you to build beautiful native apps on iOS and Android from a single codebase.</p>
+                                <p>Flutter has been developed by Google to a universal UI kit for all your projects. Allowing you to build beautiful native apps for iOS, Android, desktop, the web and even bedded devices all from a single codebase. </p>
                             </div>
                             <div className={LeftInfoStyles.image}>
                                 <img src={iphone} alt="phone" className={LeftInfoStyles.image}/>
@@ -39,6 +39,10 @@ const IndexPage = () => {
                     </div>
 
                 </LeftInfoSection>
+                <ContentSection className={contentStyles.container}>
+                    <h1 className={contentStyles.title}>From Concept to Creation</h1>
+                    <p className={contentStyles.text}>Our 3 Step Process will ensure that every detail of your project is meticulously thought out and designed</p>
+                </ContentSection>
             </Layout>
         </div>
 
