@@ -1,0 +1,40 @@
+.container {
+    
+    background: #581FB1;
+}
+
+.content {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.title{
+    color: rgb(255, 255, 255);
+
+    margin:auto 0;
+}
+
+.header{
+    font-size: 2.5rem;
+}
+
+.subheader{
+    font-size: 1.5rem;
+}
+
+.holder{
+    display: flex;
+    margin: auto;
+}
+
+.image{
+    max-height: 60vh;
+}
+
+

@@ -7,7 +7,7 @@
     height: 100px;
     width: 100%;
     position: absolute;
-    top: 0;
+    top: 2rem;
     z-index: 10;
     margin-left: auto;
     margin-right: auto;
@@ -63,4 +63,24 @@
 
 .active-nav-item{
     color: #8299bb;
+}
+
+
+.actionButton{
+    background: white;
+    border: none;
+    border-radius: 3em;
+    display: flex;
+    margin: 0 0 0 5%;
+    align-content: center;
+    align-items: center;
+    font-size: 1em;
+    padding: .7em 2em;
+    width: auto;
+    text-decoration: none;
+}
+
+.actionButton:hover{
+    background: rgb(144, 93, 185);
+
 }

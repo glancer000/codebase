@@ -19,7 +19,7 @@ const Nav = () => {
                     <li><Link className={navStyles.navItem} activeClassName={navStyles.activeNavItem} to='/about'>About</Link></li>
                 </ui>
             </div>
-            <div>Start your Project</div>
+            <div className={navStyles.actionButton}><Link  to='/project'>Start your Project</Link></div>
         </nav>
             
     )
