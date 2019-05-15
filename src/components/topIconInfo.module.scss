@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.icon{
+    margin: auto;
+}
+
+.header{
+    margin: 1rem;
+    text-align: center;
+}
+.text{
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
