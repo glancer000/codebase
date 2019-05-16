@@ -1,15 +1,15 @@
 .container{
-    display: flex;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
+    display: grid;
+    padding: 2rem;
 }
 
 .wrapper{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
     align-content: center;
-    align-items: center;
-    margin: 2rem 0;
+    margin: auto;
+    padding: 0 0 3em 0;
 }
 
 .icon{
@@ -17,11 +17,11 @@
 }
 
 .header{
-    margin: 1rem;
+    margin: 0 0 1rem 0 ;
     text-align: center;
 }
 .text{
     margin: auto;
-    width: 70%;
+    width: 100%;
     text-align: center;
 }
