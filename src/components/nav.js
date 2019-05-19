@@ -19,7 +19,7 @@ const Nav = () => {
                     <li><Link className={navStyles.navItem} activeClassName={navStyles.activeNavItem} to='/about'>About</Link></li>
                 </ui>
             </div>
-            <div className={navStyles.actionButton}><Link  to='/project'>Start your Project</Link></div>
+            <div className={navStyles.actionWrapper}><Link className={navStyles.navItem} to='/project'>Start your Project</Link></div>
         </nav>
             
     )

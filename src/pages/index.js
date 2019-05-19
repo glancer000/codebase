@@ -10,7 +10,7 @@ import LeftInfoSection from "../components/leftInfoSection";
 import LeftInfoStyles from '../components/leftInfoSection.module.scss'
 
 //images
-import iphone from '../images/iphone.png';
+import flutterLogo from '../images/flutter-logo.png';
 import prototypeIcon from '../images/prototype_icon.png';
 import buildIcon from '../images/build_icon.png';
 import launchIcon from '../images/launch_icon.png';
@@ -24,27 +24,14 @@ const IndexPage = () => {
         <div>
             <Hero/>
             <Layout>
-                <ContentSection className={contentStyles.container}>
-                    <h1 className={contentStyles.title}>One Codebase to Rule Them All.</h1>
-                    <p className={contentStyles.text}>We develop exclusively with Flutter, a crossplatfrom SDK from Google.</p>
-                </ContentSection>
-                <LeftInfoSection className={LeftInfoStyles.container}>
-                            <div className={LeftInfoStyles.content}>
-                                <h1>Why Use Flutter</h1>
-                                <p>Flutter has been developed by Google to a universal UI kit for all your projects. Allowing you to build beautiful native apps for iOS, Android, desktop, the web and even bedded devices all from a single codebase. </p>
-                            </div>
-                            <div className={LeftInfoStyles.image}>
-                                <img src={iphone} alt="phone" className={LeftInfoStyles.image}/>
-                            </div>
-                </LeftInfoSection>
-                <ContentSection className={contentStyles.container}>
-                    <h1 className={contentStyles.title}>From Concept to Creation</h1>
+            <ContentSection className={contentStyles.container}>
+                    <h1 className={contentStyles.title}>3 Reasons to Choose Codebase</h1>
                     <p className={contentStyles.text}>Our 3 Step Process will ensure that every detail of your project is meticulously thought out and designed</p>
                 </ContentSection>
                 <div className={topIconStyles.wrapper}>
                     <TopIconInfo >
                         <img src={prototypeIcon} alt="cross development planning" className={topIconStyles.icon}/>
-                        <h3 className={topIconStyles.header}>Research & Prototype</h3>
+                        <h3 className={topIconStyles.header}>One Codebase to Maintain</h3>
                         <p className={topIconStyles.text}>Research and design a working prototype that will help test user experience.</p>
                     </TopIconInfo>
                     <TopIconInfo>
@@ -58,6 +45,73 @@ const IndexPage = () => {
                         <p className={topIconStyles.text}>Perform various code and device tests to ensure performance before launching product.</p>
                     </TopIconInfo>
                 </div>
+            
+                <LeftInfoSection className={LeftInfoStyles.container}>
+                            <div className={LeftInfoStyles.content}>
+                                <h1>1. Define your project</h1>
+                                <p>Flutter has been developed by Google as a universal UI kit for all your projects. Allowing you to build beautiful native apps for iOS, Android, desktop, the web and even bedded devices all from a single codebase. </p>
+                                <button>Learn More</button>
+                            </div>
+                            <div className={LeftInfoStyles.image}>
+                                <img src={flutterLogo} alt="phone" className={LeftInfoStyles.image}/>
+                            </div>
+                </LeftInfoSection>
+                <LeftInfoSection className={LeftInfoStyles.container}>
+                    <div className={LeftInfoStyles.image}>
+                        <img src={flutterLogo} alt="phone" className={LeftInfoStyles.image}/>
+                    </div>
+                    <div className={LeftInfoStyles.content}>
+                        <h1>2. User Experience Design</h1>
+                        <p>Flutter has been developed by Google as a universal UI kit for all your projects. Allowing you to build beautiful native apps for iOS, Android, desktop, the web and even bedded devices all from a single codebase. </p>
+                        <button>Learn More</button>
+                    </div>
+
+                </LeftInfoSection>
+                <LeftInfoSection className={LeftInfoStyles.container}>
+                            <div className={LeftInfoStyles.content}>
+                                <h1>3. Visual Design Prototyping</h1>
+                                <p>Flutter has been developed by Google as a universal UI kit for all your projects. Allowing you to build beautiful native apps for iOS, Android, desktop, the web and even bedded devices all from a single codebase. </p>
+                                <button>Learn More</button>
+                            </div>
+                            <div className={LeftInfoStyles.image}>
+                                <img src={flutterLogo} alt="phone" className={LeftInfoStyles.image}/>
+                            </div>
+                </LeftInfoSection>
+                <LeftInfoSection className={LeftInfoStyles.container}>
+                    <div className={LeftInfoStyles.image}>
+                        <img src={flutterLogo} alt="phone" className={LeftInfoStyles.image}/>
+                    </div>
+                    <div className={LeftInfoStyles.content}>
+                        <h1>4. Develop & Test</h1>
+                        <p>Flutter has been developed by Google as a universal UI kit for all your projects. Allowing you to build beautiful native apps for iOS, Android, desktop, the web and even bedded devices all from a single codebase. </p>
+                        <button>Learn More</button>
+                    </div>
+
+                </LeftInfoSection>
+                <LeftInfoSection className={LeftInfoStyles.container}>
+                            <div className={LeftInfoStyles.content}>
+                                <h1>5. Launch on all Platforms</h1>
+                                <p>Flutter has been developed by Google as a universal UI kit for all your projects. Allowing you to build beautiful native apps for iOS, Android, desktop, the web and even bedded devices all from a single codebase. </p>
+                                <button>Learn More</button>
+                            </div>
+                            <div className={LeftInfoStyles.image}>
+                                <img src={flutterLogo} alt="phone" className={LeftInfoStyles.image}/>
+                            </div>
+                </LeftInfoSection>
+                <ContentSection className={contentStyles.container}>
+                    <h1 className={contentStyles.title}>One Codebase to Rule Them All.</h1>
+                    <p className={contentStyles.text}>We develop exclusively with Flutter, a crossplatfrom SDK developed by Google.</p>
+                </ContentSection>
+                <LeftInfoSection className={LeftInfoStyles.container}>
+                            <div className={LeftInfoStyles.content}>
+                                <h1>Why Use Flutter</h1>
+                                <p>Flutter has been developed by Google as a universal UI kit for all your projects. Allowing you to build beautiful native apps for iOS, Android, desktop, the web and even bedded devices all from a single codebase. </p>
+                                <button>Learn More</button>
+                            </div>
+                            <div className={LeftInfoStyles.image}>
+                                <img src={flutterLogo} alt="phone" className={LeftInfoStyles.image}/>
+                            </div>
+                </LeftInfoSection>
 
             </Layout>
         </div>
