@@ -67,7 +67,7 @@ const IndexPage = () => {
                             <div className={infoBoxLeftStyles.content}>
                                 <h1>You Gain a Complete Development Team</h1>
                                 <p>Flutter has been developed by Google as a universal UI kit for all your projects. Allowing you to build beautiful native apps for iOS, Android, desktop, the web and even bedded devices all from a single codebase. </p>
-                                <button>Learn More</button>
+    
                             </div>
                             <div className={infoBoxLeftStyles.image}>
                                 <img src={codebaseTeam} alt="phone"/>
@@ -80,7 +80,6 @@ const IndexPage = () => {
                     <div className={infoBoxRightStyles.content}>
                         <h1>We Can Develop Your Project in Record Time</h1>
                         <p>Flutter has been developed by Google as a universal UI kit for all your projects. Allowing you to build beautiful native apps for iOS, Android, desktop, the web and even bedded devices all from a single codebase. </p>
-                        <button>Learn More</button>
                     </div>
 
                 </InfoBoxRight>
@@ -88,7 +87,7 @@ const IndexPage = () => {
                             <div className={infoBoxLeftStyles.content}>
                                 <h1>Your Project works on all Major Platforms</h1>
                                 <p>Flutter has been developed by Google as a universal UI kit for all your projects. Allowing you to build beautiful native apps for iOS, Android, desktop, the web and even bedded devices all from a single codebase. </p>
-                                <button>Learn More</button>
+
                             </div>
                             <div className={infoBoxLeftStyles.image}>
                                 <img src={flutterLogo} alt="phone" className={infoBoxLeftStyles.image}/>
@@ -101,7 +100,7 @@ const IndexPage = () => {
                     <div className={infoBoxRightStyles.content}>
                         <h1>We Take Care of Every Aspect of Your Project</h1>
                         <p>Flutter has been developed by Google as a universal UI kit for all your projects. Allowing you to build beautiful native apps for iOS, Android, desktop, the web and even bedded devices all from a single codebase. </p>
-                        <button>Learn More</button>
+
                     </div>
 
                 </InfoBoxRight>
