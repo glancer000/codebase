@@ -1,0 +1,21 @@
+.info-box-wrapper{
+}
+
+.info-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    max-width: 1200px;
+    padding: 5rem 0;
+}
+
+.content{
+    padding-right: 20%;
+}
+
+
+.image{
+    padding-left: 20%;
+}

@@ -10,9 +10,9 @@ const Layout = (props) => {
     return(
         <div>
             <Nav/>
-            <div className={layoutStyles.container}>
-                {props.children}
-            </div>
+                <div className={layoutStyles.container}>
+                    {props.children}
+                </div>
             <Footer/>
         </div>
     )

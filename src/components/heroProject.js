@@ -1,7 +1,6 @@
 import React from 'react'
 
 import headerStyles from './heroProject.module.scss'
-import phone from '../images/front.png';
 
 
 const HeroProject = () => {
