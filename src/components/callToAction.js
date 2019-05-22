@@ -10,7 +10,7 @@ const CallToAction = () => {
 
 
     return(
-        <header className={layoutStyles.background}>
+        <section className={callToActionStyles.container}>
             <div className={callToActionStyles.content}>
                 <div className={callToActionStyles.title}>
                     <h1 className={callToActionStyles.header}>We develop once,<br/> you deploy everywhere</h1>
@@ -19,7 +19,7 @@ const CallToAction = () => {
                 <div className={callToActionStyles.holder}><img src={phone} alt="phone" className={callToActionStyles.image}/></div>   
             </div> 
              
-        </header>
+        </section>
     )
 }
 

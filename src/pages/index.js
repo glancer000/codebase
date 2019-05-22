@@ -18,6 +18,7 @@ import buildIcon from '../images/build_icon.png';
 import launchIcon from '../images/launch_icon.png';
 import codebaseTeam from '../images/codebase_development_team.png'
 
+
 import iosIcon from '../images/ios-icon.png'
 import andriodIcon from '../images/andriod-icon.png'
 import webIcon from '../images/web-icon.png'
@@ -90,14 +91,14 @@ const IndexPage = () => {
                     </div>
                     <div className={infoBoxRightStyles.content}>
                         <h1>We Can Develop Your Project in Record Time</h1>
-                        <p>Developing in Flutter means wehas been developed by Google as a universal UI kit for all your projects. Allowing you to build beautiful native apps for iOS, Android, desktop, the web and even bedded devices all from a single codebase. </p>
+                        <p>When you combine our development experience with an amazing technology like Flutter, you get beautiful, rich apps made at a fraction of the time it would take to build individual versions for each platform.</p>
                     </div>
 
                 </InfoBoxRight>
                 <InfoBoxLeft className={infoBoxLeftStyles.container}>
                             <div className={infoBoxLeftStyles.content}>
-                                <h1>Your Project works on all Major Platforms</h1>
-                                <p>Developing in Flutter, Google's universal UI kit for all your projects. Allowing you to build beautiful native apps for iOS, Android, desktop, the web and even bedded devices all from a single codebase. </p>
+                                <h1>Your Project Will Work on all Major Platforms</h1>
+                                <p>Developing in Flutter, Google's cross-platform UI toolkit, creates native apps for iOS, Android, desktop, the web and even bedded devices all from a single codebase. All at a silky smooth 60fps, which means your customers will have a great user experience.</p>
 
                             </div>
                             <div className={infoBoxLeftStyles.image}>
@@ -110,21 +111,9 @@ const IndexPage = () => {
                     </div>
                     <div className={infoBoxRightStyles.content}>
                         <h1>We Take Care of Every Aspect of Your Project</h1>
-                        <p>Flutter has been developed by Google as a universal UI kit for all your projects. Allowing you to build beautiful native apps for iOS, Android, desktop, the web and even bedded devices all from a single codebase. </p>
-
+                        <p>Everything from prototyping to project managment, our team will take care of that for you and keep you updated every step of the way.</p>
                     </div>
-
                 </InfoBoxRight>
-                <InfoBoxLeft className={infoBoxLeftStyles.container}>
-                            <div className={infoBoxLeftStyles.content}>
-                                <h1>Why Use Flutter</h1>
-                                <p>Flutter has been developed by Google as a universal UI kit for all your projects. Allowing you to build beautiful native apps for iOS, Android, desktop, the web and even bedded devices all from a single codebase. </p>
-                                <button>Learn More</button>
-                            </div>
-                            <div className={infoBoxLeftStyles.image}>
-                                <img src={flutterLogo} alt="phone" className={infoBoxLeftStyles.image}/>
-                            </div>
-                </InfoBoxLeft>
                 <div>
                 <CallToAction >
                 

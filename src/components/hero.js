@@ -1,7 +1,7 @@
 import React from 'react'
 
 import headerStyles from './hero.module.scss'
-import phone from '../images/front.png';
+import codebaseIllustration from '../images/codebase-illustration.png'
 
 
 const Hero = () => {
@@ -14,7 +14,7 @@ const Hero = () => {
                     <h1 className={headerStyles.header}>We develop once,<br/> you deploy everywhere</h1>
                     <h5 className={headerStyles.subheader}>A cross-platform development development studio to bring your project to life.</h5>
                 </div>
-                <div className={headerStyles.holder}><img src={phone} alt="phone" className={headerStyles.image}/></div>   
+                <div className={headerStyles.holder}><img src={codebaseIllustration} alt="phone" className={headerStyles.image}/></div>   
             </div> 
              
         </header>
