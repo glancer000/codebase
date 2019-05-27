@@ -10,7 +10,6 @@ const Nav = () => {
     return(
         <nav className={navStyles.container}>
             <Link className={navStyles.logo} to ="/"><img src={logo} alt="Logo" /></Link>
-            <div className={navStyles.spacer}></div>
             <div className={navStyles.nav}>
                 <ui className={navStyles.navList}>
                     <li><Link className={navStyles.navItem} activeClassName={navStyles.activeNavItem} to='/'>Home</Link></li>

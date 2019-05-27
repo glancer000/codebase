@@ -1,24 +1,30 @@
 .container {
-    
+    margin: 0 auto;
+    padding: 1rem;
+    display: grid;
+    align-items: center;
     background: #5F29C7;
 }
 
 .content {
-    margin: 0 auto;
-    width: 80%;
-    max-width: 1200px;
-    padding: 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    min-height: 90vh;
+    padding: 18vh 0 10vh 0;
 }
 
 .title{
     color: rgb(255, 255, 255);
-
-    margin:auto 0;
+    line-height: 10px;
+    text-align: center;
+    visibility: hidden;
 }
+
+.mobile-title{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2rem;
+    line-height: 3rem;
+    
+}
+
 
 .header{
     font-size: 2.5rem;
@@ -36,5 +42,3 @@
 .image{
     max-height: 60vh;
 }
-
-
