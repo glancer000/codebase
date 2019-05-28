@@ -9,9 +9,7 @@ const Nav = (props) => {
     return (
         <header className={navStyles.container}>
             <nav className={navStyles.content}>
-                <div>
-                    <DrawerToggleButton click={props.drawerClickHandler}/>
-                </div>
+
                 <div><Link className={navStyles.logo} to ="/"><img src={logo} alt="Logo" /></Link></div>
                 <div className={navStyles.spacer}/>
                 <div className={navStyles.links}>
@@ -23,6 +21,9 @@ const Nav = (props) => {
                     </ul>
                 </div>
                 <div><Link className={navStyles.navItem} to='/project'>Start your Project</Link></div>
+                <div className={navStyles.hamburgerToggle}>
+                    <DrawerToggleButton click={props.drawerClickHandler}/>
+                </div>
             </nav>
         </header>
     )

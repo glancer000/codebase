@@ -1,23 +1,27 @@
 .container {
     width: 100%;
-    padding: 1rem;
-    margin: 0 auto;
-    // list-style: none;
+    // padding: 1rem;
+    // margin: 0 auto;
+    // // list-style: none;
 
     // align-items: center;
     // height: 100px;
     // width: 100%;
-    position: fixed;
+    position: absolute;
     z-index: 10;
     top: 0rem;
-    left: 0;
+    
     // right: 0;
 }
 
 .content{
     display: flex;
     align-items: center;
+    width: 80%;
+    padding: 20px 0 0 0;
+    margin: auto;
 }
+
 
 
 .links ul {
@@ -102,4 +106,16 @@
 .actionButton:hover{
     background: rgb(144, 93, 185);
 
+}
+
+@media (max-width: 769px){
+    .links{
+        display: none;
+    }
+}
+
+@media (min-width: 769px){
+    .hamburger-toggle{
+        display: none;
+    }
 }
