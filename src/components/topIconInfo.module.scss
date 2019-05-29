@@ -27,3 +27,15 @@
     width: 100%;
     text-align: center;
 }
+
+@media (max-width: 769px){
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 2rem;
+        justify-content: space-between;
+        align-content: center;
+        margin: auto;
+        padding: 0 3em 3em 3em;
+    }
+}

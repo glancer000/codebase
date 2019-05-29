@@ -1,6 +1,6 @@
 import React from 'react'
 
-import contentStyles from '../components/content.module.scss'
+import contentStyles from '../contentHeader/content.module.scss'
 
 const ContentSection = (props) => {
     return (

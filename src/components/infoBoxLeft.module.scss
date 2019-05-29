@@ -19,3 +19,30 @@
 .image{
     padding-left: 20%;
 }
+
+@media (max-width: 769px){
+    .info-box{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        align-items: center;
+        margin: auto;
+        width: 80%;
+        max-width: 1200px;
+        padding: 5rem 0;
+    }
+
+    .text{
+        text-align: left;
+        margin: 0 2rem 2rem 2rem;
+    }
+
+    .image{
+        padding-left: 0%
+    }
+
+    img{
+        width: 100%;
+    }
+}
+

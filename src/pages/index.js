@@ -4,8 +4,8 @@ import Layout from '../components/layout'
 import Hero from '../components/hero'
 import '../styles/index.scss'
 
-import ContentSection from '../components/content'
-import contentStyles from '../components/content.module.scss'
+import ContentSection from '../components/contentHeader/content'
+import contentStyles from '../components/contentHeader/content.module.scss'
 import InfoBoxLeft from "../components/infoBoxLeft";
 import infoBoxLeftStyles from '../components/infoBoxLeft.module.scss'
 import InfoBoxRight from "../components/infoBoxRight";
@@ -39,7 +39,7 @@ const IndexPage = () => {
             <Hero/>
             <Layout>
             <ContentSection className={contentStyles.container}>
-                    <h1 className={contentStyles.title}>Develop One Codebase That Will run Natively on on all Major Platforms</h1>
+                    <h1 className={contentStyles.title}>Cross-platform and completely native</h1>
                     <p className={contentStyles.text}>We exclusively develop with Flutter, Google's cross-platform development solution, which means you only have to maintain one codebase at a fraction of the cost of traditional development studios.</p>
                 </ContentSection>
                 <div className={topIconStyles.wrapper}>
@@ -90,7 +90,7 @@ const IndexPage = () => {
                         <img src={flutterLogo} alt="phone"/>
                     </div>
                     <div className={infoBoxRightStyles.content}>
-                        <h1>We Can Develop Your Project in Record Time</h1>
+                        <h1>Develop Your Project in Record Time</h1>
                         <p>When you combine our development experience with an amazing technology like Flutter, you get beautiful, rich apps made at a fraction of the time it would take to build individual versions for each platform.</p>
                     </div>
 
