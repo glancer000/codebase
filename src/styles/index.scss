@@ -624,3 +624,9 @@ html {
       font-size: 100%;
     }
   }
+
+  @media (max-width: 769px){
+    h1{
+        font-size: 2rem;
+    }
+}

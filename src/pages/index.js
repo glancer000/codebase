@@ -76,14 +76,15 @@ const IndexPage = () => {
                     <h1 className={contentStyles.title}>Why Choose Codebase to Develop Your Next Project?</h1>
                 </ContentSection>
                 <InfoBoxLeft className={infoBoxLeftStyles.container}>
-                            <div className={infoBoxLeftStyles.content}>
-                                <h1>You Gain a Complete Development Team</h1>
-                                <p>Think of the peace of mind, knowing that you don't need to recruit and manage an development team, you already have an experienced team right at your fingertips. Codebase has a complete development team ready to tackle your project. Everything from UI, UX, Front-End & Back-End development, we can handle it. </p>
-    
-                            </div>
-                            <div className={infoBoxLeftStyles.image}>
+                <div className={infoBoxLeftStyles.image}>
                                 <img src={codebaseTeam} alt="phone"/>
                             </div>
+                            <div className={infoBoxLeftStyles.content}>
+                                <h1>You Gain a Complete Development Team</h1>
+                                <p>Think of the peace of mind, knowing that you don't need to recruit and manage a development team, you already have an experienced team right at your fingertips. Codebase has a complete development team ready to tackle your project. Everything from UI, UX, Front-End & Back-End development, we can handle it. </p>
+    
+                            </div>
+
                 </InfoBoxLeft>
                 <InfoBoxRight className={infoBoxRightStyles.container}>
                     <div className={infoBoxRightStyles.image}>
